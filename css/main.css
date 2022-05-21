@@ -1,0 +1,28 @@
+/* universal element */
+* {
+    background-color: red;
+}
+
+.navRight {
+    text-align: right;
+    border-bottom: aliceblue;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+section {
+    background-color: red;
+}
+
+
+div, iframe {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #777;
+    display:block;
+}
