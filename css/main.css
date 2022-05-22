@@ -3,6 +3,16 @@
     background-color: white;
 }
 
+.body-header {
+    display: block;
+    border-radius: 6px;
+    color: white;
+    background: #be0f2c;
+    text-align: center;
+    font-size: 48px;
+    font-family: fantasy;
+}
+
 .flex-main {
     display: flex;
 }
@@ -29,7 +39,7 @@ p:hover {
     position: absolute;
     bottom: 20%;
     width: 10%;
-    left: 50%;
+    left: 46.5%;
 }
 
 .btn {
