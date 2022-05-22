@@ -1,34 +1,33 @@
 <!Doctype <!DOCTYPE html>
-<html lang ='en-US'>
+<html lang='en-US'>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rocket Combs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="javascript/main.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="javascript/main.js"></script>
 </head>
-<body>
+
+<body id="body">
     <header>
-        <nav class="navRight">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Who Am I?</a>
-                </li>
-            </ul>
-        </nav>
+
     </header>
-    <section>
-        <iframe width=720px height=720px src="https://youtu.be/SxOwjLg6uL0"></iframe>
 
-        <p>Test</p>
-    </section>
+    <main class="flex-main">
+        <section id="imgArea">
 
-    <footer>
+        </section>
+        <section id="btnArea">
+            <button class="btn" onclick="doThis(); this.onclick=null;">Click Me!</button>
+        </section>
+
+    </main>
+    <footer id="main-footer">
         What did you expect?
     </footer>
 </body>
-</html>
