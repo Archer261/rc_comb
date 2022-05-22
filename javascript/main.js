@@ -11,3 +11,16 @@ function doThis() {
     document.getElementById("imgArea").appendChild(img);
     //niceTry.onclick = "";
 }
+
+function playVid() {
+    const vid = document.createElement("video");
+    vid.src = "assets/its_me.mp4"
+    vid.id = "vid";
+    vid.width = 240;
+    vid.height = 320;
+    vid.muted = true;
+    vid.autoplay = true;
+    vid.controls = true;
+    document.getElementById('imgArea').appendChild(vid);
+
+}
