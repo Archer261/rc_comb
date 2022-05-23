@@ -29,12 +29,13 @@ function playRick() {
     const vid = document.createElement("iframe");
     vid.width = "560"; 
     vid.height = "315"; 
-    vid.src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+    vid.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
     vid.id = "vid"; 
     vid.title = "YouTube video player"; 
     vid.frameborder = "0"; 
     vid.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; 
     vid.allowFullscreen = true;
+    vid.
     document.getElementById('imgArea').appendChild(vid); //Testing this
 }
 
