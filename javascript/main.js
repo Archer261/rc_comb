@@ -27,13 +27,14 @@ function doThis() {
 
 function playRick() {
     const vid = document.createElement("iframe");
-    vid.width="560"; 
-    vid.height="315"; 
-    vid.src="https://www.youtube.com/embed/dQw4w9WgXcQ";
-    vid.id="vid"; 
-    vid.title="YouTube video player"; 
-    vid.frameborder="0"; 
-    vid.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; 
+    vid.width = "560"; 
+    vid.height = "315"; 
+    vid.src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+    vid.id = "vid"; 
+    vid.title = "YouTube video player"; 
+    vid.frameborder = "0"; 
+    vid.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; 
+    vid.allowFullscreen = true;
     document.getElementById('imgArea').appendChild(vid);
 }
 
