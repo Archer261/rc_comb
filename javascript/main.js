@@ -35,6 +35,6 @@ function playRick() {
     vid.frameborder = "0"; 
     vid.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; 
     vid.allowFullscreen = true;
-    document.getElementById('imgArea').appendChild(vid);
+    document.getElementById('imgArea').appendChild(vid); //Testing this
 }
 
