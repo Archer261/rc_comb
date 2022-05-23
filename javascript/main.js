@@ -12,7 +12,7 @@ function doThis() {
     //niceTry.onclick = "";
 }
 
-function playVid() {
+/*function playVid() {
     const vid = document.createElement("video");
     vid.src = "assets/its_me.mp4"
     vid.id = "vid";
@@ -23,4 +23,17 @@ function playVid() {
     vid.controls = true;
     document.getElementById('imgArea').appendChild(vid);
 
+}*/
+
+function playRick() {
+    const vid = document.createElement("iframe");
+    vid.width="560"; 
+    vid.height="315"; 
+    vid.src="https://www.youtube.com/embed/dQw4w9WgXcQ";
+    vid.id="vid"; 
+    vid.title="YouTube video player"; 
+    vid.frameborder="0"; 
+    vid.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; 
+    document.getElementById('imgArea').appendChild(vid);
 }
+
